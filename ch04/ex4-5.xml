@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AudioCatalog xmlns="http://cs.skuniv.ac.kr/xml/hjh"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://cs.skuniv.ac.kr/xml/hjh ex4-5.xsd">
+	<Cd>
+		<Title>Yours Truly</Title>
+		<Artist>Ariana Grande</Artist>
+		<Genre>Pop</Genre>
+		<Released-date>2013/09/02</Released-date>
+		<Song>Honeymoon Avenue</Song>
+		<Song>Lovin' It</Song>
+		<Song>The Way</Song>
+	</Cd>
+	<Record>
+		<Title>My Everything</Title>
+		<Artist>Ariana Grande</Artist>
+		<Genre>Pop</Genre>
+		<Released-date>2014/08/25</Released-date>
+		<Song>Why Try</Song>
+		<Song>Best Mistake</Song>
+		<Song>Be My Baby</Song>
+	</Record>
+	<Mp3>
+		<Title>Dangerous Woman</Title>
+		<Artist>Ariana Grande</Artist>
+		<Genre>Pop</Genre>
+		<Released-date>2016/04/01</Released-date>
+		<Song>Moonlight</Song>
+		<Song>Touch It</Song>
+		<Song>Thinking Bout You</Song>
+	</Mp3>
+</AudioCatalog>

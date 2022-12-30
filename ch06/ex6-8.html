@@ -1,0 +1,26 @@
+<html>
+<head>
+<meta charset="utf-8">
+</head>
+<body>
+<script language="JavaScript">
+ 	var xmldoc = new ActiveXObject("MSXML.DOMDocument")
+	
+	var simpleElement = xmldoc.createElement("simple");
+	var nameElement = xmldoc.createElement("name");
+	var firstAttr = xmldoc.createAttribute("first");
+	var lastAttr = xmldoc.createAttribute("last");
+
+	firstAttr.nodeValue = "기수";
+	lastAttr.nodeValue = "김";
+	
+	nameElement.attributes.setNamedItem(firstAttr);
+	nameElement.attributes.setNamedItem(lastAttr);
+	
+	simpleElement.appendChild(nameElement);
+	xmldoc.documentElement = simpleElement;
+
+	alert(xmldoc.xml);
+</script>
+<body>
+<html>

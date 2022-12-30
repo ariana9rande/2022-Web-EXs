@@ -1,0 +1,57 @@
+<html>
+<head>
+<meta charset="utf-8">
+</head>
+<body>
+<script language="JavaScript">
+ 	var xmldoc = new ActiveXObject("MSXML.DOMDocument")
+	
+	var productElement = xmldoc.createElement("제품");
+	var handphoneElement = xmldoc.createElement("핸드폰");
+	var modelElement = xmldoc.createElement("모델명");
+	var telElement = xmldoc.createElement("통신사");
+	var buyElement = xmldoc.createElement("구입형태");
+	var manuElement = xmldoc.createElement("제조사");
+	var colorElement = xmldoc.createElement("색상");
+	var sellElement = xmldoc.createElement("판매량");
+	var priceElement = xmldoc.createElement("가격");
+
+	var modelText = xmldoc.createTextNode("SCH-X147");
+	var telText = xmldoc.createTextNode("017");
+	var buyText = xmldoc.createTextNode("기기변경");
+	var manuText = xmldoc.createTextNode("삼성전자");
+	var colorText = xmldoc.createTextNode("화이트");
+	var sellText = xmldoc.createTextNode("30");
+	var priceText = xmldoc.createTextNode("253000");
+
+	var unitAttr = xmldoc.createAttribute("단위");
+	var currencyAttr = xmldoc.createAttribute("화폐");
+
+	unitAttr.nodeValue="개";
+	currencyAttr.nodeValue = "원";
+
+	xmldoc.documentElement = productElement;
+	productElement.appendChild(handphoneElement);	
+	handphoneElement.appendChild(modelElement);
+	handphoneElement.appendChild(telElement);
+	handphoneElement.appendChild(buyElement);
+	handphoneElement.appendChild(manuElement);
+	handphoneElement.appendChild(colorElement);
+	handphoneElement.appendChild(sellElement);
+	handphoneElement.appendChild(priceElement);
+
+	modelElement.appendChild(modelText);
+	telElement.appendChild(telText);
+	buyElement.appendChild(buyText);
+	manuElement.appendChild(manuText);
+	colorElement.appendChild(colorText);
+	sellElement.appendChild(sellText);
+	priceElement.appendChild(priceText);
+
+	sellElement.attributes.setNamedItem(unitAttr);
+	priceElement.attributes.setNamedItem(currencyAttr);
+
+	alert(xmldoc.xml);
+</script>
+<body>
+<html>

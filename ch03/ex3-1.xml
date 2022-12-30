@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE Products [
+	<!ELEMENT Products (Product*)>
+	<!ELEMENT Product (Maker, Name, Price, Discount, Code)>
+	<!ELEMENT Maker (#PCDATA)>
+	<!ELEMENT Name (#PCDATA)>
+	<!ELEMENT Price (#PCDATA)>
+	<!ELEMENT Discount (#PCDATA)>
+	<!ELEMENT Code (#PCDATA)>
+]>
+<Products>
+	<Product>
+		<Maker>(주)여우 화장품</Maker>
+		<Name>스킨</Name>
+		<Price>2500</Price>
+		<Discount>0.2</Discount>
+		<Code>WB-34-56</Code>
+	</Product>
+</Products>

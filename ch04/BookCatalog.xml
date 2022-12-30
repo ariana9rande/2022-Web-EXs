@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<BookCatalog xmlns="http://cs.skuniv.ac.kr/xml/hjh"
+		xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+		xsi:schemaLocation="http://cs.skuniv.ac.kr/xml/hjh BookCatalog.xsd">
+	<Book>
+		<Title>title1</Title>
+		<Author>author1</Author>
+		<Year>2022</Year>
+	</Book>
+	<Book>
+		<Title>title2</Title>
+		<Author>author2</Author>
+		<Year>2021</Year>
+	</Book>
+	<Book>
+		<Title>title3</Title>
+		<Author>author3</Author>
+		<Year>2020</Year>
+	</Book>
+</BookCatalog>

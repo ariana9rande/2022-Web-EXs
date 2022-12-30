@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="EUC-KR"?>
+<BookCatalog>
+	<Book>
+		<Title>title1</Title>
+		<Author>author1</Author>
+		<Year>2022</Year>
+	</Book>
+	<Book>
+		<Title>title2 &</Title>
+		<Author>author2</Author>
+		<Year>2022</Year>
+	</Book>
+</BookCatalog>

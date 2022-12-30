@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AudioCatalog xmlns="http://cs.skuniv.ac.kr/xml/hjh"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://cs.skuniv.ac.kr/xml/hjh ex4-7.xsd">
+	<Cd>
+		<Title>Yours Truly</Title>
+		<Artist>Ariana Grande</Artist>
+		<Genre>Pop</Genre>
+		<Released-date>2013/09/02</Released-date>
+		<Song>
+			Honeymoon Avenue
+			<playTime>
+				<hours>0</hours>
+				<minutes>3</minutes>
+				<seconds>30</seconds>
+			</playTime>
+		</Song>
+		<Song>
+			Lovin' It
+			<playTime>
+				<hours>0</hours>
+				<minutes>3</minutes>
+				<seconds>30</seconds>
+			</playTime>
+		</Song>
+		<Song>
+			The Way
+			<playTime>
+				<hours>0</hours>
+				<minutes>3</minutes>
+				<seconds>30</seconds>
+			</playTime>
+		</Song>
+	</Cd>
+	<Record>
+		<Title>My Everything</Title>
+		<Artist>Ariana Grande</Artist>
+		<Genre>Pop</Genre>
+		<Released-date>2014/08/25</Released-date>
+		<Song>
+			Why Try
+			<playTime>
+				<hours>0</hours>
+				<minutes>3</minutes>
+				<seconds>30</seconds>
+			</playTime>
+		</Song>
+		<Song>
+			Best Mistake
+			<playTime>
+				<hours>0</hours>
+				<minutes>3</minutes>
+				<seconds>30</seconds>
+			</playTime>
+		</Song>
+		<Song>
+			Be My Baby
+			<playTime>
+				<hours>0</hours>
+				<minutes>3</minutes>
+				<seconds>30</seconds>
+			</playTime>
+		</Song>
+	</Record>
+	<Mp3>
+		<Title>Dangerous Woman</Title>
+		<Artist>Ariana Grande</Artist>
+		<Genre>Pop</Genre>
+		<Released-date>2016/04/01</Released-date>
+		<Song>
+			Moonlight
+			<playTime>
+				<hours>0</hours>
+				<minutes>3</minutes>
+				<seconds>30</seconds>
+			</playTime>
+		</Song>
+		<Song>
+			Touch It
+			<playTime>
+				<hours>0</hours>
+				<minutes>3</minutes>
+				<seconds>30</seconds>
+			</playTime>
+		</Song>
+		<Song>
+			Thinking Bout You
+			<playTime>
+				<hours>0</hours>
+				<minutes>3</minutes>
+				<seconds>30</seconds>
+			</playTime>
+		</Song>
+	</Mp3>
+</AudioCatalog>

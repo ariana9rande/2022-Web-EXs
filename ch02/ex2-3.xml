@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<BookCatalog>
+	<Book>
+		<Title>title1</Title>
+		<Author>author1</Author>
+		<Year>2022</Year>
+		<Summary><![CDATA[ & > < " ' " '  ]]></Summary>
+	</Book>
+	<Book>
+		<Title>title2</Title>
+		<Author>author2</Author>
+		<Year>2022</Year>
+		<Summary><![CDATA[summary2]]></Summary>
+	</Book>
+	<Book>
+		<Title>title3</Title>
+		<Author>author3</Author>
+		<Year>2022</Year>
+		<Summary><![CDATA[summary3]]></Summary>
+	</Book>
+</BookCatalog>

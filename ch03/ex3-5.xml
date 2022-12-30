@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE BookCatalog
+[
+	<!ELEMENT BookCatalog (Book*)>
+	<!ELEMENT Book (Title, Author, Year)>
+	<!ELEMENT Title (#PCDATA)>
+	<!ELEMENT Author (#PCDATA)>
+	<!ELEMENT Year (#PCDATA)>
+	<!ATTLIST Book lang CDATA "english">
+]>
+<BookCatalog>
+	<Book lang = "english">
+		<Title>title1</Title>
+		<Author>author1</Author>
+		<Year>2022</Year>
+	</Book>
+</BookCatalog>

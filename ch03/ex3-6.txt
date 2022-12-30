@@ -1,0 +1,3 @@
+FIXED - 오류
+IMPLIED - 통과
+REQUIRED - 오류

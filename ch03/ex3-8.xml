@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE BookCatalog
+[
+	<!ELEMENT BookCatalog (Book*)>
+	<!ELEMENT Book (Title, Author, Year, Price)>
+	<!ELEMENT Title (#PCDATA)>
+	<!ELEMENT Author (#PCDATA)>
+	<!ELEMENT Year (#PCDATA)>
+	<!ELEMENT Price (#PCDATA)>
+	<!ATTLIST Book lang CDATA #IMPLIED>
+	<!ATTLIST Book code ID #IMPLIED>
+	<!ATTLIST Price unit (원 | 달러 | 엔 | 프랑) #REQUIRED>
+]>
+<BookCatalog>
+	<Book code = "bc001">
+		<Title>title1</Title>
+		<Author>author1</Author>
+		<Year>2022</Year>
+		<Price unit = "원">25000</Price>
+	</Book>
+	<Book code = "bc002">
+		<Title>title2</Title>
+		<Author>author2</Author>
+		<Year>2022</Year>
+		<Price unit = "달러">25</Price>
+	</Book>
+</BookCatalog>

@@ -1,0 +1,8 @@
+<!ELEMENT BookCatalog (Book*)>
+<!ELEMENT Book ((BookCode | Title), CoAuthor, Year, Summary)>
+<!ELEMENT BookCode (#PCDATA)>
+<!ELEMENT Title (#PCDATA)>
+<!ELEMENT CoAuthor (#PCDATA | Author)*>
+<!ELEMENT Author (#PCDATA)>
+<!ELEMENT Year (#PCDATA)>
+<!ELEMENT Summary ANY>

@@ -1,0 +1,28 @@
+<html>
+<head>
+</head>
+<body>
+<script language="JavaScript">
+var xmldoc = new ActiveXObject("MSXML.DOMDocument");
+xmldoc.async = false;
+xmldoc.load("ex6-2.xml");
+var root = xmldoc.documentElement;
+alert(root.tagName);
+alert(root.attributes(0).name);
+alert(root.attributes(0).nodeValue);
+alert(root.firstChild.tagName);
+alert(root.firstChild.firstChild.nodeValue);
+alert(root.childNodes(1).tagName);
+alert(root.childNodes(1).attributes(0).name);
+alert(root.childNodes(1).attributes(0).nodeValue);
+alert(root.childNodes(1).lastChild.nodeValue);
+alert(root.lastChild.tagName);
+alert(root.lastChild.firstChild.tagName);
+alert(root.lastChild.firstChild.attributes(0).name);
+alert(root.lastChild.firstChild.attributes(0).nodeValue);
+alert(root.lastChild.firstChild.lastChild.nodeValue);
+alert(root.lastChild.lastChild.tagName);
+alert(root.lastChild.lastChild.lastChild.nodeValue);
+</script>
+</body>
+</html>

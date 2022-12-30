@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE BookCatalog
+[
+	<!ELEMENT BookCatalog (Book*)>
+	<!ELEMENT Book ((Title | BookCode), CoAuthor, Year, Summary)>
+	<!ELEMENT Title (#PCDATA)>
+	<!ELEMENT BookCode (#PCDATA)>
+	<!ELEMENT CoAuthor (#PCDATA | Author)*>
+	<!ELEMENT Author (#PCDATA)>
+	<!ELEMENT Year (#PCDATA)>
+	<!ELEMENT Summary ANY>
+]>
+<BookCatalog>
+	<Book>
+		<Title>title1</Title>
+		<CoAuthor>
+		<Author>author1</Author>
+		</CoAuthor>
+		<Year>2022</Year>
+		<Summary></Summary>
+	</Book><Book>
+		<BookCode>1234</BookCode>
+		<CoAuthor>
+		<Author>author2</Author>
+		</CoAuthor>
+		<Year>2022</Year>
+		<Summary>summary2</Summary>
+	</Book>
+	<Book>
+		<Title>title3</Title>
+		<CoAuthor> 
+			주저자 : <Author>author3</Author>
+			공저자 : <Author>coauthor1</Author>
+		</CoAuthor>
+		<Year>2022</Year>
+		<Summary>summary3</Summary>
+	</Book>
+</BookCatalog>

@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<!DOCTYPE BookCatalog [
+	<!ELEMENT BookCatalog (Book*)>
+	<!ELEMENT Book (Title, Author, Year)>
+	<!ELEMENT Title (#PCDATA)>
+	<!ELEMENT Author (#PCDATA)>
+	<!ELEMENT Year (#PCDATA)>
+]>
+<BookCatalog>
+	<Book>
+		<Title>title1</Title>
+		<Author>author1</Author>
+		<Year>2022</Year>
+	</Book>
+	<Book>
+		<Title>title2</Title>
+		<Author>author2</Author>
+		<Year>2021</Year>
+	</Book>
+	<Book>
+		<Title>title3</Title>
+		<Author>author3</Author>
+		<Year>2020</Year>
+	</Book>
+</BookCatalog>

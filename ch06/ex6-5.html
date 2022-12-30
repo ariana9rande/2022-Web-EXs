@@ -1,0 +1,25 @@
+<html>
+<head>
+</head>
+<body>
+<script language="JavaScript">
+var xmldoc = new ActiveXObject("MSXML.DOMDocument");
+xmldoc.async = false;
+xmldoc.load("ex6-5.xml");
+
+//1st solution
+//var nodes = xmldoc.selectNodes("//last");
+//for (var i = 0; i < nodes.length; i++)
+//{
+//	alert(nodes[i].firstChild.nodeValue);
+//}
+
+//2nd solution
+var nameList = xmldoc.getElementsByTagName("last");
+for (var i = 0; i < nameList.length; i++)
+{
+	alert(nameList.item(i).firstChild.nodeValue);
+}
+</script>
+</body>
+</html>

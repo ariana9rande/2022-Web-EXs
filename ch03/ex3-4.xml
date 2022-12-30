@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE BookCatalog SYSTEM "ex3-4.dtd">
+	<Book>
+		<Title>title1</Title>
+		<CoAuthor>
+			<Author>author1</Author>
+		</CoAuthor>
+		<Year>2022</Year>
+		<Summary>요약</Summary>
+	</Book>
+	<Book>
+		<BookCode>ISBN-123456</BookCode>
+		<CoAuthor>
+			<Author>author2</Author>
+		</CoAuthor>
+		<Year>2022</Year>
+		<Summary></Summary>
+	</Book>
+	<Book>
+		<Title>제목</Title>
+		<CoAuthor>
+			주저자:<Author>author3</Author>
+			공저자:<Author>author4</Author>
+		</CoAuthor>
+		<Year>2022</Year>
+		<Summary>Sum</Summary>
+	</Book>
+</BookCatalog>

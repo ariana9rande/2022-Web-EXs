@@ -1,0 +1,17 @@
+0.document
+1.Element("order")		// xmldoc.documentElement.tagName
+2.Attribute("number")		// xmldoc.documentElement.attributes(0).name OR xmldoc.attributes.item[0]
+3.Text("3123")			// xmldoc.documentElement.attributes(0).nodeValue
+2.Element("date")		// xmldoc.documentElement.firstChild.tagName
+3.Text("2002/1/1")		// xmldoc.documentElement.firstChild.firstChild.nodeValue
+2.Element("customer")		// xmldoc.documentElement.childNodes(1).tagName
+3.Attribute("id")		// xmldoc.documentElement.childNodes(1).attributes(0).name
+4.Text("216A")			// xmldoc.documentElement.childNodes(1).attributes(0).nodeValue
+3.Text("Company A")		// xmldoc.documentElement.childNodes(1).lastChild.nodeValue
+2.Element("item")		// xmldoc.documentElement.lastChild.tagName
+3.Element("part-number")	// xmldoc.documentElement.lastChild.firstChild.tagName
+4.Attribute("warehouse")	// xmldoc.documentElement.lastChild.firstChild.attributes(0).name
+5.Text("Warehouse 11")		// xmldoc.documentElement.lastChild.firstChild.attributes(0).nodeValue
+4.Text("E16-25A")		// xmldoc.documentElement.lastChild.firstChild.lastChild.nodeValue
+3.Element("quantity")		// xmldoc.documentElement.lastChild.lastChild.tagName
+4.Text("16")			// xmldoc.documentElement.lastChild.lastChild.lastChild.nodeValue

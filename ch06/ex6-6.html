@@ -1,0 +1,23 @@
+<html>
+<head>
+</head>
+<body>
+<script language="JavaScript">
+var xmldoc = new ActiveXObject("MSXML.DOMDocument");
+xmldoc.async = false;
+xmldoc.load("ex6-6.xml");
+
+//1st solution
+//var nodes = xmldoc.getElementsByTagName("name");
+//for(var i = 0 ; i < nodes.length ; i++ )
+//	alert(nodes[i].attributes.getNamedItem("first").nodeValue);
+
+//2nd solution
+var nodes = xmldoc.selectNodes("//@first");
+for (var i = 0; i < nodes.length; i++)
+{
+	alert(nodes[i].nodeValue);
+}
+</script>
+</body>
+</html>
